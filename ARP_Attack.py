@@ -3,6 +3,8 @@ import os
 import time
 import threading as th
 
+#这是注释
+
 # 添加一个信号量，保证输出不会混乱
 semaphore = th.Semaphore(1)
 
